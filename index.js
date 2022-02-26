@@ -7,6 +7,7 @@ getUser(1)
   .catch((err) => console.log("Error", err.message));
 
 console.log("After");
+
 function getUser(id) {
   return new Promise((resolve, reject) => {
     // Kick off some async work
